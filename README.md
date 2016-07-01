@@ -4,6 +4,8 @@ This is the implementation based on the following paper:
 
 Tao Chen, Hany M. SalahEldeen, Xiangnan He, Min-Yen Kan and Dongyuan Lu (2015). [VELDA: Relating an Image Tweet’s Text and Images.](http://wing.comp.nus.edu.sg/~chentao/data/pubs/velda_aaai15.pdf) In Proceedings of the 29th AAAI Conference on Artificial Intelligence (AAAI'15), Austin, USA.
 
+ **We additioanlly release the preprocessed [Wikipedia Picture of the Day](https://en.wikipedia.org/wiki/Wikipedia:Picture_of_the_day) (POTD) dataset.** Please see [dataset/POTD] (https://github.com/kite1988/velda/tree/master/dataset/POTD) for details. 
+ 
 Author: Tao Chen (http://wing.comp.nus.edu.sg/~chentao)
 
 ## Usage
@@ -35,7 +37,7 @@ Author: Tao Chen (http://wing.comp.nus.edu.sg/~chentao)
   
   The file formats are similar to the training set.
 
-  **We additioanlly release the processed Wikipedia Picture of Day (POTD) dataset.** Please see [dataset/POTD] (https://github.com/kite1988/velda/tree/master/dataset/POTD) for details. 
+  ** Please see [dataset/POTD] (https://github.com/kite1988/velda/tree/master/dataset/POTD) for an example dataset. 
 
 
 ## Output
