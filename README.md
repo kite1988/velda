@@ -37,7 +37,7 @@ Author: Tao Chen (http://wing.comp.nus.edu.sg/~chentao)
   
   The file formats are similar to the training set.
 
-  ** Please see [dataset/POTD] (https://github.com/kite1988/velda/tree/master/dataset/POTD) for an example dataset. 
+  Please see [dataset/POTD] (https://github.com/kite1988/velda/tree/master/dataset/POTD) for an example dataset. 
 
 
 ## Output
