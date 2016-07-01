@@ -13,19 +13,20 @@ Author: Tao Chen (http://wing.comp.nus.edu.sg/~chentao)
 
   ``` java Main.java config.init```
   
-  If you are training with a large dataset, please allocate more memeory to JVM, e.g.,
+  If you are training with a large dataset, please allocate more memory to JVM, e.g.,
   
    ``` java -Xmx2g Main.java config.init```
+  
+  This code invokes the pipeline of training, testing and evaluation.
    
-   This code invokes the pipeline of training, testing, and evaluation.
-   
+
 ## Dataset (input) format
   * Training set consists of three files:
     * p_train_text.txt
     * p_train_visual.txt
     * p_train_emotion.txt
   
-  Each line contains the textual/visual/emotional word IDs (seperated by a whitespace) for a particular document. That is, the n*th* lines correspond to the n*th* document in the dataset. Note word IDs are continous integers, ranging from 0 to vocabulary size-1.
+  Each line contains the textual/visual/emotional word IDs (seperated by a whitespace) for a particular document. That is, the n*th* lines correspond to the n*th* document in the dataset. Note word IDs are continuous integers ( [0, vocabulary size-1])
 
   * Test set consists of three files:
     * p_test_text.txt
@@ -68,12 +69,10 @@ Author: Tao Chen (http://wing.comp.nus.edu.sg/~chentao)
       * D is the number of testing documents.
       
   * Evaluation
-    * result.csv: error rate against different top retrieved results (in percentage)
-    * top_results.csv:  each line is the top five results, along with grouth truth and a random image for a query text.
+    * result.csv: error rate against different top percentage of retrieved results
+    * top_results.csv: each line contains the top five results, along with grouth truth and a random image for a query text.
     
-    Note the image IDs are continuous integers, ranging from 0 to the document size-1 
-
-  
+    Note the image IDs are continuous integers ([0, D-1]).
 
 
 
