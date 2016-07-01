@@ -1,0 +1,27 @@
+# Vocabulary size of textual, visual, emotional words. 
+voc_t = 3224
+voc_v = 1000
+voc_e = 1000
+
+# Dimension of visual and emotional topics
+K = 40
+E = 80
+
+# Hyper-parameters
+alpha_v = 1.0
+alpha_e = 1.0
+beta_v = 0.1
+beta_e = 0.1
+gamma_t = 0.1
+eta = 0.5
+
+# Iterations
+train_iters = 100
+test_iters = 20
+save_intermediate_model = true
+
+# Train, test, model and result folder
+train_data_dir = dataset/POTD
+test_data_dir = dataset/POTD
+model_dir = model/POTD
+result_dir = test/POTD

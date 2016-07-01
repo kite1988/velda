@@ -1,0 +1,5 @@
+# of docs in train 2274
+Text vocabulary 3224
+Visual vocabulary 1000
+Emotion vocabulary 997
+# of docs in test 250
