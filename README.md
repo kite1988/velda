@@ -19,7 +19,7 @@ Author: Tao Chen (http://wing.comp.nus.edu.sg/~chentao)
   
    ``` java -Xmx2g Main.java config.init```
   
-  This code invokes the pipeline of training, testing and evaluation.
+  This code invokes the pipeline of training, testing and evaluation. The evaluation is conducted in a text-based image retrieval task. Please see the paper for detailed description.
    
 
 ## Dataset (input) format
@@ -51,7 +51,7 @@ Author: Tao Chen (http://wing.comp.nus.edu.sg/~chentao)
     p_ze_t.txt | image-emotion topic word distribution | E * S
     p_t_r.txt  | textual word relevance distribution | T * 2
     p_d_zv.txt | document visual-topic distribution | D * K
-    p_d_ze.txt | document visual-topic distribution | D * E
+    p_d_ze.txt | document emotion-topic distribution | D * E
     
     Notation: 
     * K/E is the number of visual/emotional topics.
@@ -64,15 +64,16 @@ Author: Tao Chen (http://wing.comp.nus.edu.sg/~chentao)
     File | Description | Dimension
     ------------ | ------------- | -------------
     p_d_zv.txt | document visual-topic distribution | D * K
-    p_d_ze.txt | document visual-topic distribution | D * E
+    p_d_ze.txt | document emotion-topic distribution | D * E
 
     Notation:
       * K/E is the number of visual/emotional topics.
       * D is the number of testing documents.
       
   * Evaluation
+  
     * result.csv: error rate against different top percentage of retrieved results
-    * top_results.csv: each line contains the top five results, along with grouth truth and a random image for a query text.
+    * top_results.csv: each line contains the top five results (image ID and score), along with grouth truth and a random image for a query text.
     
     Note the image IDs are continuous integers ([0, D-1]).
 
