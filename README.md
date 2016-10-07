@@ -2,7 +2,7 @@
 
 This is the implementation based on the following paper:
 
-Tao Chen, Hany M. SalahEldeen, Xiangnan He, Min-Yen Kan and Dongyuan Lu (2015). [VELDA: Relating an Image Tweet’s Text and Images.](http://wing.comp.nus.edu.sg/~chentao/data/pubs/velda_aaai15.pdf) In Proceedings of the 29th AAAI Conference on Artificial Intelligence (AAAI'15), Austin, USA.
+Tao Chen, Hany M. SalahEldeen, Xiangnan He, Min-Yen Kan and Dongyuan Lu (2015). [VELDA: Relating an Image Tweet’s Text and Images.](https://www.comp.nus.edu.sg/~kanmy/papers/Chen_VELDA_Camera_Ready.pdf) In Proceedings of the 29th AAAI Conference on Artificial Intelligence (AAAI'15), Austin, USA.
 
  We additionally release the preprocessed [Wikipedia Picture of the Day](https://en.wikipedia.org/wiki/Wikipedia:Picture_of_the_day) (POTD) dataset. See [dataset/POTD] (https://github.com/kite1988/velda/tree/master/dataset/POTD) for details. 
  
