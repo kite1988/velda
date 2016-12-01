@@ -8,7 +8,7 @@ Tao Chen, Hany M. SalahEldeen, Xiangnan He, Min-Yen Kan and Dongyuan Lu (2015). 
  
 **Please cite our AAAI'15 paper if you use our code or dataset. Thanks!** 
 
-Author: Tao Chen (http://www.comp.nus.edu.sg/~taochen)
+Author: Tao Chen (http://www.cs.jhu.edu/~taochen)
 
 
 ## Usage
