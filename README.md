@@ -9,7 +9,7 @@ Tao Chen, Hany M. SalahEldeen, Xiangnan He, Min-Yen Kan and Dongyuan Lu (2015). 
  * [Twitter image tweets](https://github.com/kite1988/velda/tree/master/dataset/Twitter)
  * [Wikipedia Picture of the Day](https://github.com/kite1988/velda/tree/master/dataset/POTD) (POTD) dataset. 
  
- As restricted by the Weibo and Twitter policy, we are only able to release their Post IDs. For POTD, we release the dataset with extracted features.
+ As restricted by the Weibo and Twitter policy, we are only able to release the Post IDs. For POTD, we release the dataset with extracted features.
  
  
 **Please cite our AAAI'15 paper if you use our code or dataset. Thanks!** 
