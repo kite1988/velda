@@ -4,7 +4,13 @@ This is the implementation based on the following paper:
 
 Tao Chen, Hany M. SalahEldeen, Xiangnan He, Min-Yen Kan and Dongyuan Lu (2015). [VELDA: Relating an Image Tweet’s Text and Images.](https://www.comp.nus.edu.sg/~kanmy/papers/Chen_VELDA_Camera_Ready.pdf) In Proceedings of the 29th AAAI Conference on Artificial Intelligence (AAAI'15), Austin, USA.
 
- We additionally release the preprocessed [Wikipedia Picture of the Day](https://en.wikipedia.org/wiki/Wikipedia:Picture_of_the_day) (POTD) dataset. See [dataset/POTD] (https://github.com/kite1988/velda/tree/master/dataset/POTD) for details. 
+ We additionally release three datasets used in the paper:
+ * [Weibo image tweets] (https://github.com/kite1988/velda/tree/master/dataset/Weibo)
+ * [Twitter image tweets] (https://github.com/kite1988/velda/tree/master/dataset/Twitter)
+ * [Wikipedia Picture of the Day](https://github.com/kite1988/velda/tree/master/dataset/POTD) (POTD) dataset. 
+ 
+ As restricted by the Weibo and Twitter policy, we are only able to release their Post IDs. For POTD, we release the dataset with extracted features.
+ 
  
 **Please cite our AAAI'15 paper if you use our code or dataset. Thanks!** 
 
@@ -40,7 +46,7 @@ Author: Tao Chen (http://www.cs.jhu.edu/~taochen)
   
   The file formats are similar to the training set.
 
-  Please see [dataset/POTD] (https://github.com/kite1988/velda/tree/master/dataset/POTD) for an example dataset. 
+  Please see [dataset/POTD](https://github.com/kite1988/velda/tree/master/dataset/POTD) for an example dataset. 
 
 
 ## Output
